@@ -1,0 +1,66 @@
+#body-color {
+  margin: 0vw;
+  padding: 0vw;
+  background-color: #f8f8f8;
+  background-image: url("Pictures/First.jpeg");
+  background-position: center;
+  background-size: cover;
+  height: 100vw;
+}
+/* nav bar css home */
+.pill-nav a {
+  display: inline-block;
+  color: rgb(232, 227, 227);
+  text-align: center;
+  padding: 1vw;
+  text-decoration: none;
+  font-size: 2vw;
+  border-radius: 5px;
+}
+
+.pill-nav a:hover {
+  background-color: #050505;
+  color: rgb(240, 238, 238);
+}
+
+.pill-nav a.active {
+  background-color: rgb(230, 230, 237);
+  color: white;
+}
+/* nav bar home css end */
+
+/* button css */
+.btn {
+  font-size: xx-large;
+  font-weight: bold;
+  padding: 1vw;
+  margin-left: 70vw;
+  margin-top: 0vw;
+  border-radius: 30vw;
+  background-color: #f1f1f1;
+  border-color: rgba(245, 245, 245, 0.97);
+  border-width: 0.5vw;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn:hover {
+  background-color: black;
+  color: #f1f1f1;
+}
+
+/*  */
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5vw;
+  margin-left: 5vw;
+  margin-top: 0vw;
+}
+
+p {
+  margin-top: 15vw;
+  margin-left: 65vw;
+  font-size: 4vw;
+}
+
+/*  */

@@ -1,0 +1,174 @@
+<title>Add To Cart</title>
+
+<body style="background-image: url(Pictures/cart.jpg);background-position: center;
+background-size: cover;margin:0;">
+
+  <style>
+    /* nav bar css */
+    .topnav {
+      overflow: hidden;
+      background-color: #f1f1f1;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 2vw;
+      border-bottom: 3px solid transparent;
+    }
+
+    .topnav a:hover {
+      border-bottom: 3px solid red;
+    }
+
+    .topnav a.active {
+      border-bottom: 3px solid red;
+    }
+
+    /* nav bar css end */
+
+    /*  */
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      padding: 0 16px;
+    }
+
+    .container::after,
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .title {
+      color: rgb(214, 31, 31);
+      font-weight: bolder;
+      font-family: 'Times New Roman', Times, serif;
+      text-decoration: underline;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .button:hover {
+      background-color: #555;
+    }
+
+    /*  */
+  </style>
+
+  <div class="topnav">
+    <a href="#My orders"><b>My Orders</b></a>
+    <a href="#My Delivery"><b>Track My Order</b></a>
+    <a href="#Product Info"><b>Product Information</b></a>
+    <a href="#Shipping Info"><b>Shipping Information</b></a>
+    <a href="#Price"><b>Price</b></a>
+    <a href="#Billing Info"><b>Billing Information</b></a>
+  </div>
+
+  <!-- other div for add to cart -->
+
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="Pictures/Add To Cart1.jpg" alt="Apple Laptop" style="width:100%">
+        <div class="container">
+          <h1>Apple</h1>
+          <p class="title">Product Details</p>
+          <p>Apple Company Laptop With Other Accessories</p>
+          <p>macOS: Unique operating system experience.</p>
+          <p>Build Quality and Design: Premium materials and sleek aesthetics.</p>
+          <p>Retina Display: High-resolution, vibrant screens.</p>
+          <p>Trackpad: Large, responsive, multi-touch gestures.</p>
+          <p>Integration with Apple Ecosystem: Seamless connectivity with other Apple devices.</p>
+          <p>Optimization with Apple Software: Hardware-software synergy for smooth performance.</p>
+          <p>Security Features: Robust built-in security measures.</p>
+          <p><button class="button">Add To Cart</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="Pictures/Add To Cart 2.jpg" alt="Microsoft Laptop" style="width:100%">
+        <div class="container">
+          <h1>Microsoft</h1>
+          <p class="title">Product Details</p>
+          <p>Microsoft Company Laptop With Other Accessories</p>
+          <p>Windows Operating System: Versatile and widely used OS.</p>
+          <p>Hardware Diversity: Range of laptop options from various manufacturers.</p>
+          <p>Touchscreen and Pen Support: Many models offer touch and stylus input.</p>
+          <p>Gaming Capabilities: Options for gaming-oriented hardware and software.</p>
+          <p>Productivity Tools: Integration with Microsoft Office suite and other productivity software.</p>
+          <p>Cortana Integration: Voice-activated assistant for productivity tasks.</p>
+          <p>Windows Hello: Biometric login options for enhanced security.</p>
+          <p>Microsoft Surface Line: Premium 2-in-1 devices with innovative design features.</p>
+          <p><button class="button">Add To Cart</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="Pictures/Add To Cart3.jpg" alt="Razer Laptop" style="width:100%">
+        <div class="container">
+          <h1>Razer</h1>
+          <p class="title">Product Details</p>
+          <p>Razer Company Laptop With Other Accessories</p>
+          <p>Gaming Performance: Optimized for high-end gaming with powerful hardware.</p>
+          <p>Sleek Design: Premium build quality and modern aesthetics.</p>
+          <p>Customizable RGB Lighting: Chroma RGB lighting for keyboard and other accents.</p>
+          <p>High Refresh Rate Displays: Many models feature high refresh rate screens for smooth gameplay.</p>
+          <p>Advanced Cooling Systems: Innovative cooling solutions for sustained performance.</p>
+          <p>Compact Form Factor: Slim and portable designs without sacrificing performance.</p>
+          <p>Gaming Peripheral Integration: Seamlessly integrates with Razer gaming peripherals and software ecosystem.
+          </p>
+          <p>Creator-focused Features: Some models cater to content creators with high-resolution displays and powerful
+            graphics options.</p>
+          <p><button class="button">Add To Cart</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
